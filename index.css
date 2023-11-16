@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
+
+* {
+  overflow-x: hidden;
+  text-decoration: none;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+body {
+  background-image: url(images/background-aquino.webp);
+  background-repeat: repeat-x;
+  background-color: #321e43;
+}
+
+.all-body {
+  min-width: 300px;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b16d39cb;
+  min-width: 300px;
+  border-radius: 20px;
+}
+
+.logo-nav-aquino {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-links {
+  font-size: 27px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  min-width: 300px;
+}
+
+.nav-links-img {
+  padding-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-video-header-1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.container-video-header-2 {
+  border-radius: 17px;
+  border: solid 7px #c96b13;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+}
+
+.title-feed-popular {
+  font-size: 3em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 14px;
+}
+
+.feed-popular {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feed-popular-box-style {
+  margin: 14px;
+  border: solid 3px #a52a0b;
+  background-color: #c7600c;
+  border-radius: 22px;
+  box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+  -webkit-box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+  -moz-box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+}
+
+.img-popular {
+  border-radius: 22px;
+}
+
+.link-vid-feed-popular {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.txt-vid-feed-popular {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-eventos {
+  font-size: 3em;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+/* Quiz de aquino */
+.title-actividades-txt {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  color: rgb(255, 196, 0);
+  font-size: 3em;
+}
+
+.box-down-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.style-box-down {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: #c96b13;
+  border-radius: 30px;
+  border: solid 1px #fff;
+  box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+  -webkit-box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+  -moz-box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+}
+
+.image-quiz-box1 {
+  height: 200px;
+  border-radius: 30px;
+}
+
+.quiz-txt {
+  display: flex;
+  justify-content: center ;
+  text-decoration: none;
+  color: rgb(255, 230, 0);
+}
+/* Seccion del ig */
+.box-ig-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  justify-content: space-around;
+}
+
+.box-1-ig-aquino-style {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.target-aquino-ig {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.diego-aquino-ig-img {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 20%;
+  border-radius: 7000px;
+  box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+  -webkit-box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+  -moz-box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+}
+
+.ig-link-aquino {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ig-aquino-bard-txt {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  padding-right: 0px;
+  color: #c96b13;
+}
+
+.parrafo-ig-aquino {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-ig-images-board {
+  display: flex;
+  min-width: 300px;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+
+.image-ig-1 {
+  display: flex;
+  border: solid 3px #c96b13;
+  padding: 3px;
+  border-radius: 30px;
+}
+
+.img-ig-1 {
+  box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+  -webkit-box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+  -moz-box-shadow: -1px 0px 26px 0px rgba(0,0,0,0.59);
+}
+
+.ig-title {
+  color: rgb(255, 192, 211);
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
