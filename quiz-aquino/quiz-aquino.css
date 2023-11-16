@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
+
+* {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../images/background-aquino.webp);
+    background-repeat: repeat-x;
+    background-color: #321e43;
+    min-width: 300px;
+}
+
+.nav-content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b16d39cb;
+    min-width: 300px;
+    border-radius: 20px;
+  }
+  
+  .logo-nav-aquino {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 300px;
+  }
+  
+  .nav-links {
+    font-size: 27px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+    min-width: 300px;
+  }
+  
+
+  .nav-links-img {
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 300px;
+  }
